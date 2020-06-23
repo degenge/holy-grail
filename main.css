@@ -1,14 +1,55 @@
 html, body {
     margin: 0;
     padding: 0;
+    /*height: 100%;*/
 }
 
 header {
-    background-color: #f3c623;
+    background-color: #fbfd8a;
     padding: 20px;
 }
 
 header h1 {
     margin: 0;
 }
+
+nav {
+    background-color: #01a9b4;
+}
+
+nav a {
+    display: block;
+}
+
+main {
+    background-color: #87dfd6;
+}
+
+aside {
+    background-color: #01a9b4;
+}
+
+footer {
+    padding: 5px;
+    background-color: #086972;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+img {
+    width: 100%;
+}
+
+a.main {
+    display: block;
+    padding: 25px;
+    text-decoration: none;
+}
+
+a.main:hover {
+    text-decoration: none;
+}
+
 

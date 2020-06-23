@@ -1,0 +1,40 @@
+html, body {
+    height: 90%;
+}
+
+nav, main, aside {
+    padding: 1%;
+    height: 90%;
+}
+
+nav {
+    float: left;
+    width: 15%;
+    margin: 1%;
+}
+
+aside {
+    float: right;
+    width: 15%;
+    margin: 1%;
+}
+
+main {
+    float: left;
+    width: 60%;
+    margin-top: 1%;
+}
+
+footer {
+    clear: both;
+    float: none;
+}
+
+@media (max-width: 1024px) {
+    nav, main, aside {
+        float: none;
+        width: auto;
+        margin: 7px auto;
+        height: auto;
+    }
+}
